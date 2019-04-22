@@ -1,11 +1,13 @@
 .app {
     background-attachment: fixed;
     background-image: url(media/background.png);
-    background-size: 100% 100%;
     background-repeat: repeat-y;
+    background-size: 100% 100%;
     min-height: 100vh;
 }
 
 main {
+    margin: auto;
+    max-width: 400px;
     padding: 1.5rem;
 }

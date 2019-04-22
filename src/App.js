@@ -7,8 +7,8 @@ const App = () =>
     <Header />
     <main>
       <DetailsPage />
+      <Footer />
     </main>
-    <Footer />
   </div>;
 
 export default App;
