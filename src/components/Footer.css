@@ -4,6 +4,7 @@
 
 .footer-button {
     background: linear-gradient(white, rgb(173, 216, 240));
+    color: black;
     display: block;
     font-size: 100%;
     font-weight: bold;
