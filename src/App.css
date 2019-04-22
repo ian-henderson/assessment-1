@@ -3,12 +3,9 @@
     background-image: url(media/background.png);
     background-size: 100% 100%;
     background-repeat: repeat-y;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
 }
 
 main {
-    flex: 1;
     padding: 1.5rem;
 }

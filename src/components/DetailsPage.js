@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './DetailsPage.css';
 
 const details = {
@@ -11,15 +11,13 @@ const details = {
 };
 
 const DetailsPage = () =>
-  <Fragment>
+  <div className="details-page">
     <div className="hotel-exterior-image" />
-    <div className="hotel-details">
-      <h3 className="hotel-name">{details.name}</h3>
-      {details.addressLines.map(line => <address>{line}</address>)}
-      <a href={`+${details.phoneNumber.replace(/-/g, '')}`}>
-        {details.phoneNumber}
-      </a>
-    </div>
-  </Fragment>;
+    <h3 className="hotel-name">{details.name}</h3>
+    {details.addressLines.map((line, i) => <address key={i}>{line}</address>)}
+    <a href={`tel:+${details.phoneNumber.replace(/-/g, '')}`}>
+      {details.phoneNumber}
+    </a>
+  </div>;
 
 export default DetailsPage;

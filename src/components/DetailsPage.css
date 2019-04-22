@@ -2,15 +2,15 @@
     background-image: url(../media/hotel-exterior.jpg);
     background-size: cover;
     border: solid white;
-    height: 30%;
+    height: 9rem;
     width: 100%;
 }
 
-.hotel-details, a {
+.details-page, a {
     color: white;
 }
 
-.hotel-details > * {
+.details-page > * {
     margin-bottom: 0.30rem;
 }
 
