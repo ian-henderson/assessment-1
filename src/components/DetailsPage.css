@@ -1,0 +1,20 @@
+.hotel-exterior-image {
+    background-image: url(../media/hotel-exterior.jpg);
+    background-size: cover;
+    border: solid white;
+    height: 30%;
+    width: 100%;
+}
+
+.hotel-details, a {
+    color: white;
+}
+
+.hotel-details > * {
+    margin-bottom: 0.30rem;
+}
+
+address {
+    color: rgb(173, 216, 240);
+    font-style: normal;
+}
